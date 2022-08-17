@@ -1,0 +1,85 @@
+body,
+html {
+  height: 100%;
+  background-color: wheat;
+}
+:root {
+  font-size: 62.5%;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  --bg-color: #18181b;
+  --form-br: #4f46e5;
+  --input-color: #e5e7eb;
+  --input-bg: #27272a;
+}
+#root,
+.container {
+  height: 100%;
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 60%;
+  margin: auto;
+  padding: 20px 0px 20px;
+}
+input {
+  width: 300px;
+  height: 2rem;
+  outline-style: none;
+  border-style: none;
+  margin-left: 5px;
+}
+button {
+  width: fit-content;
+}
+.primary {
+  height: 100px;
+}
+label {
+  min-width: 50px;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+section div {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+.educationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.educationForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.educationList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  gap: 20px;
+}
+.education {
+  margin-top: 20px;
+  width: 200px;
+}
+form div {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.exp form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
